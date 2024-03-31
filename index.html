@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <script>
+        function areaOfCircle(radius)
+        {
+            console.log(`Radius of Circle : ${radius}`);
+            const Area =3.14*radius*radius;
+            console.log(`Area of Circle : ${Area}`);
+            
+        }
+        areaOfCircle(5);
+        areaOfCircle(10);
+
+        /* Function with Argument but no Return */
+        function areaOfRectangle(l,b) {
+            const Area = l*b;
+            console.log(`Area of Rectangle : ${Area}`);
+ 
+        } 
+        areaOfRectangle(15,20);
+
+        /Function with Argument and Return/
+        function areaOfSquare(side) 
+        {
+            console.log(`Area of Square : ${side}`);
+            const area = side*side;
+            return area ;
+        }
+        const s = areaOfSquare(5);
+        console.log(`Area of Square : ${s}`);
+        
+        /*function with no argument and with return */
+        function getpassingMarks() 
+        {
+            return 50;
+        }
+        const mark = getpassingMarks();
+        console.log(`Passing Marks : ${mark}`); 
+        
+        /* Function with no argument no return */
+        function addition() 
+        {
+            const a = 50;
+            const b = 30;
+            add = a+b;
+            console.log(` addition of ${a} and ${b} is : ${add}`);
+        }
+        addition();
+        
+    </script>
+    
+</body>
+</html>
+            
